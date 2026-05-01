@@ -1,30 +1,30 @@
-<x-layout>
-    <x-slot:title>
-        Home
-    </x-slot:title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chirper</title>
 
-    <div style="text-align: center; margin-top: 50px;">
+    <!-- Tailwind CDN (biar langsung jadi tanpa ribet) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
 
-        <h1 style="font-weight: bold; font-size: 36px;">
-            Welcome to Chirper
+    <div class="bg-white p-8 rounded-xl shadow-md text-center max-w-md">
+        
+        <h1 class="text-3xl font-bold mb-4">
+            Welcome to Chirper!
         </h1>
 
-        <p style="font-size: 18px;">
-            Halaman Pertama
+        <p class="mt-4 text-base text-gray-600">
+            This is your brand new Laravel app. Time to make it sing (or chirp)!
         </p>
 
-        <button style="
-            margin-top: 40px;
-            padding: 12px 24px;
-            font-size: 16px;
-            background-color: #3b82f6;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-        ">
-            Jelajahi Sekarang →
-        </button>
+        <p class="mt-2 text-sm text-gray-600">
+            Now this is live on the internet! 🎉
+        </p>
 
     </div>
-</x-layout>
+
+</body>
+</html>
