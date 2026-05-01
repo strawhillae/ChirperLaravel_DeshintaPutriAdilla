@@ -5,7 +5,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-[#0f0f0f] text-white flex flex-col min-h-screen">
+<body class="min-h-screen text-white flex flex-col bg-gradient-to-br from-[#0f172a] via-[#111827] to-[#020617]">
 
     <!-- NAVBAR -->
     <div class="flex justify-between items-center px-8 py-4 border-b border-gray-800">
@@ -56,8 +56,8 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
 
                 <!-- BOX 1 -->
-                <div class="bg-[#1a1a1a] p-6 rounded-xl border border-gray-800 hover:border-indigo-500 hover:scale-105 transition">
-                    <div class="w-12 h-12 mb-3 bg-indigo-500 rounded-full flex items-center justify-center font-bold">
+                <div class="bg-[#1a1a1a] p-6 rounded-xl border border-gray-800 hover:border-indigo-400 hover:scale-105 transition">
+                    <div class="w-12 h-12 mb-3 bg-indigo-400 rounded-full flex items-center justify-center font-bold">
                         S
                     </div>
                     <h2 class="font-semibold text-lg">Skylar Beneatha</h2>
@@ -67,8 +67,8 @@
                 </div>
 
                 <!-- BOX 2 -->
-                <div class="bg-[#1a1a1a] p-6 rounded-xl border border-gray-800 hover:border-purple-500 hover:scale-105 transition">
-                    <div class="w-12 h-12 mb-3 bg-purple-500 rounded-full flex items-center justify-center font-bold">
+                <div class="bg-[#1a1a1a] p-6 rounded-xl border border-gray-800 hover:border-purple-400 hover:scale-105 transition">
+                    <div class="w-12 h-12 mb-3 bg-purple-400 rounded-full flex items-center justify-center font-bold">
                         F
                     </div>
                     <h2 class="font-semibold text-lg">Feingard Agmoth</h2>
