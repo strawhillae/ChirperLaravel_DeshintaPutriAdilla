@@ -26,9 +26,9 @@
             <!-- BOX 1 -->
             <div class="bg-gray-900 p-6 rounded-xl border border-gray-800 text-center hover:scale-105 transition">
                 <div class="w-12 h-12 mx-auto mb-3 bg-pink-500 rounded-full flex items-center justify-center font-bold">
-                    A
+                    S
                 </div>
-                <h2 class="font-semibold text-lg">Alice</h2>
+                <h2 class="font-semibold text-lg">Skylar Beneatha</h2>
                 <p class="text-sm text-gray-400">
                     "Sharing my first moment on Chirper ✨"
                 </p>
@@ -37,9 +37,9 @@
             <!-- BOX 2 -->
             <div class="bg-gray-900 p-6 rounded-xl border border-gray-800 text-center hover:scale-105 transition">
                 <div class="w-12 h-12 mx-auto mb-3 bg-purple-500 rounded-full flex items-center justify-center font-bold">
-                    B
+                    F
                 </div>
-                <h2 class="font-semibold text-lg">Brian</h2>
+                <h2 class="font-semibold text-lg">Feingard Agmoth</h2>
                 <p class="text-sm text-gray-400">
                     "Building something cool with Laravel 🚀"
                 </p>
@@ -50,7 +50,7 @@
                 <div class="w-12 h-12 mx-auto mb-3 bg-pink-400 rounded-full flex items-center justify-center font-bold">
                     C
                 </div>
-                <h2 class="font-semibold text-lg">Cindy</h2>
+                <h2 class="font-semibold text-lg">Whitney Ornaith</h2>
                 <p class="text-sm text-gray-400">
                     "Late night thoughts & soft vibes 💫"
                 </p>
