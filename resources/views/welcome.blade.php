@@ -95,9 +95,12 @@
     </main>
 
     <!-- FOOTER -->
-    <footer class="text-center text-gray-500 text-sm py-6">
-        © 2026 Chirper — Built with Laravel ❤️
+    <footer class="border-t border-gray-800 py-6 text-center text-gray-400 text-sm">
+            © 2026 <span class="text-white font-semibold">Chirper</span> — Built with 
+        <span class="text-indigo-400">Laravel</span> and ❤️ by 
+        <span class="text-white">Deshinta Putri Adilla (240170099)</span>
     </footer>
+
 
 </body>
 </html>
