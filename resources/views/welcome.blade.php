@@ -1,5 +1,3 @@
-<h1>VERSI BARU NIH!!!</h1>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,114 +5,99 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="min-h-screen text-white flex flex-col bg-gradient-to-br from-[#0f172a] via-[#111827] to-[#020617] relative overflow-hidden">
+<body class="bg-gray-100 text-gray-900 flex flex-col min-h-screen">
 
-    <!-- BACKGROUND GLOW -->
-    <div class="absolute top-0 left-0 w-72 h-72 bg-indigo-500 opacity-20 blur-3xl"></div>
-    <div class="absolute bottom-0 right-0 w-72 h-72 bg-purple-500 opacity-20 blur-3xl"></div>
+    <!-- NAVBAR -->
+    <nav class="bg-white border-b border-gray-200 px-6 py-4 flex justify-between items-center">
+        
+        <!-- LOGO -->
+        <a href="/" class="text-lg font-semibold">
+            Chirper
+        </a>
 
-    <div class="relative z-10 flex flex-col min-h-screen">
-
-        <!-- NAVBAR -->
-        <div class="flex justify-between items-center px-8 py-4 border-b border-gray-800">
-            
-            <!-- LOGO CLICKABLE -->
-            <a href="/" class="flex items-center gap-2 hover:opacity-80 transition">
-                <div class="w-9 h-9 bg-indigo-500 rounded-full flex items-center justify-center">
-                    <!-- ICON -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M8 10h.01M12 14h.01M16 10h.01M21 12c0 4.418-4.03 8-9 8a9.77 9.77 0 01-4-.8L3 20l1.2-3.6A7.7 7.7 0 013 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                    </svg>
-                </div>
-                <h1 class="text-xl font-semibold tracking-wide">Chirper</h1>
+        <!-- AUTH -->
+        <div class="space-x-4">
+            <a href="#" class="text-gray-600 hover:text-black">Log in</a>
+            <a href="#" class="bg-black text-white px-4 py-2 rounded-md text-sm">
+                Register
             </a>
-
-            <!-- BUTTON -->
-            <div class="space-x-4">
-                <button class="text-gray-300 hover:text-white transition">
-                    Sign In
-                </button>
-                <button class="bg-indigo-500 px-5 py-2 rounded-full font-semibold hover:bg-indigo-400 transition">
-                    Sign Up
-                </button>
-            </div>
         </div>
+    </nav>
 
-        <!-- MAIN -->
-        <div class="flex-grow px-8 py-12">
-            <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+    <!-- MAIN -->
+    <main class="flex-grow max-w-6xl mx-auto w-full px-4 py-8">
 
-                <!-- LEFT: WELCOME -->
-                <div class="bg-gradient-to-br from-indigo-500 to-purple-600 p-10 rounded-3xl flex flex-col justify-between min-h-[420px] shadow-lg">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-                    <div>
-                        <p class="text-sm text-white/70 mb-3">● ACTIVE V1.1</p>
+            <!-- LEFT (kosong biar balance) -->
+            <div></div>
 
-                        <h1 class="text-4xl font-bold mb-6 leading-snug">
-                            Welcome to <br> Chirper ✨
-                        </h1>
+            <!-- CENTER (INI INTI CHIRPER) -->
+            <div class="space-y-6">
 
-                        <p class="text-white/80">
-                            A place where your thoughts go live,
-                            stories unfold, and connections happen in real-time.
-                        </p>
+                <!-- FORM -->
+                <div class="bg-white p-4 rounded-xl border border-gray-200">
+                    <textarea 
+                        class="w-full border-gray-300 rounded-lg focus:ring focus:ring-gray-200 p-3"
+                        placeholder="What's on your mind?"
+                    ></textarea>
+
+                    <div class="flex justify-end mt-3">
+                        <button class="bg-black text-white px-4 py-2 rounded-md text-sm">
+                            Chirp
+                        </button>
                     </div>
-
-                    <button class="mt-8 bg-white text-black py-3 rounded-full font-semibold hover:scale-105 transition">
-                        Explore Now
-                    </button>
                 </div>
 
-                <!-- RIGHT: BOX -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-
-                    <!-- BOX 1 -->
-                    <div class="bg-[#1a1a1a] p-6 rounded-xl border border-gray-800 hover:border-indigo-500 hover:scale-105 transition">
-                        <div class="w-12 h-12 mb-3 bg-indigo-500 rounded-full flex items-center justify-center font-bold">
-                            S
+                <!-- CHIRP 1 -->
+                <div class="bg-white p-4 rounded-xl border border-gray-200">
+                    <div class="flex items-center gap-3 mb-2">
+                        <div class="w-10 h-10 bg-gray-300 rounded-full"></div>
+                        <div>
+                            <p class="font-semibold">Skylar Beneatha</p>
+                            <p class="text-xs text-gray-500">2 minutes ago</p>
                         </div>
-                        <h2 class="font-semibold text-lg">Skylar Beneatha</h2>
-                        <p class="text-sm text-gray-400 mt-1">
-                            "Sharing my first moment on Chirper ✨"
-                        </p>
                     </div>
+                    <p>Sharing my first chirp on Chirper ✨</p>
+                </div>
 
-                    <!-- BOX 2 -->
-                    <div class="bg-[#1a1a1a] p-6 rounded-xl border border-gray-800 hover:border-purple-500 hover:scale-105 transition">
-                        <div class="w-12 h-12 mb-3 bg-purple-500 rounded-full flex items-center justify-center font-bold">
-                            F
+                <!-- CHIRP 2 -->
+                <div class="bg-white p-4 rounded-xl border border-gray-200">
+                    <div class="flex items-center gap-3 mb-2">
+                        <div class="w-10 h-10 bg-gray-300 rounded-full"></div>
+                        <div>
+                            <p class="font-semibold">Feingard Agmoth</p>
+                            <p class="text-xs text-gray-500">10 minutes ago</p>
                         </div>
-                        <h2 class="font-semibold text-lg">Feingard Agmoth</h2>
-                        <p class="text-sm text-gray-400 mt-1">
-                            "Building something cool with Laravel 🚀"
-                        </p>
                     </div>
+                    <p>Laravel makes everything easier 🚀</p>
+                </div>
 
-                    <!-- BOX 3 -->
-                    <div class="bg-[#1a1a1a] p-6 rounded-xl border border-gray-800 hover:border-indigo-400 hover:scale-105 transition sm:col-span-2">
-                        <div class="w-12 h-12 mb-3 bg-indigo-400 rounded-full flex items-center justify-center font-bold">
-                            W
+                <!-- CHIRP 3 -->
+                <div class="bg-white p-4 rounded-xl border border-gray-200">
+                    <div class="flex items-center gap-3 mb-2">
+                        <div class="w-10 h-10 bg-gray-300 rounded-full"></div>
+                        <div>
+                            <p class="font-semibold">Withney Ornaith</p>
+                            <p class="text-xs text-gray-500">1 hour ago</p>
                         </div>
-                        <h2 class="font-semibold text-lg">Withney Ornaith</h2>
-                        <p class="text-sm text-gray-400 mt-1">
-                            "Late night thoughts & soft vibes 💫"
-                        </p>
                     </div>
-
+                    <p>Working on my Chirper project 💻</p>
                 </div>
 
             </div>
+
+            <!-- RIGHT (kosong / nanti bisa isi) -->
+            <div></div>
+
         </div>
 
-        <!-- FOOTER -->
-        <footer class="border-t border-gray-800 py-6 text-center text-gray-400 text-sm">
-            © 2026 <span class="text-white font-semibold">Chirper</span> — Built with 
-            <span class="text-indigo-400">Laravel</span> and ❤️ by 
-            <span class="text-white">Deshinta Putri Adilla (240170099)</span>
-        </footer>
+    </main>
 
-    </div>
+    <!-- FOOTER -->
+    <footer class="text-center text-gray-500 text-sm py-6">
+        © 2026 Chirper — Built with Laravel ❤️
+    </footer>
 
 </body>
 </html>
