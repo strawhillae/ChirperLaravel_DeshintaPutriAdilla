@@ -23,16 +23,16 @@
     </nav>
 
     <!-- MAIN -->
-    <main class="flex-grow max-w-4xl mx-auto w-full px-4 py-10">
+    <main class="flex-grow max-w-4xl mx-auto w-full px-4 py-12">
 
-        <div class="space-y-6">
+        <div class="space-y-5 mt-6">
 
             <!-- BOX 1 -->
-            <div class="bg-[#f2d6b3] p-5 rounded-xl shadow-md hover:shadow-lg transition">
+            <div class="bg-[#f2d6b3] p-4 rounded-xl shadow-md hover:shadow-lg transition">
 
                 <div class="flex items-center gap-3 mb-2">
 
-                    <div class="w-10 h-10 bg-[#a66a4a] rounded-full flex items-center justify-center text-[#f2d6b3] font-bold">
+                    <div class="w-9 h-9 bg-[#a66a4a] rounded-full flex items-center justify-center text-[#f2d6b3] font-bold">
                         S
                     </div>
 
@@ -48,11 +48,11 @@
             </div>
 
             <!-- BOX 2 -->
-            <div class="bg-[#f2d6b3] p-5 rounded-xl shadow-md hover:shadow-lg transition">
+            <div class="bg-[#f2d6b3] p-4 rounded-xl shadow-md hover:shadow-lg transition">
 
                 <div class="flex items-center gap-3 mb-2">
 
-                    <div class="w-10 h-10 bg-[#c97b63] rounded-full flex items-center justify-center text-[#f2d6b3] font-bold">
+                    <div class="w-9 h-9 bg-[#c97b63] rounded-full flex items-center justify-center text-[#f2d6b3] font-bold">
                         F
                     </div>
 
@@ -68,11 +68,11 @@
             </div>
 
             <!-- BOX 3 -->
-            <div class="bg-[#f2d6b3] p-5 rounded-xl shadow-md hover:shadow-lg transition">
+            <div class="bg-[#f2d6b3] p-4 rounded-xl shadow-md hover:shadow-lg transition">
 
                 <div class="flex items-center gap-3 mb-2">
 
-                    <div class="w-10 h-10 bg-[#a66a4a] rounded-full flex items-center justify-center text-[#f2d6b3] font-bold">
+                    <div class="w-9 h-9 bg-[#a66a4a] rounded-full flex items-center justify-center text-[#f2d6b3] font-bold">
                         W
                     </div>
 
