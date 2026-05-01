@@ -7,43 +7,49 @@
 
 <body class="bg-pink-50 text-gray-800 flex items-center justify-center min-h-screen">
 
-    <div class="text-center">
+    <div class="max-w-5xl w-full px-6">
 
-        <h1 class="text-4xl font-bold text-pink-500 mb-10">
-            Chirper Space 🌸
-        </h1>
+        <!-- TOP SECTION -->
+        <div class="bg-white p-8 rounded-2xl shadow mb-8 text-center">
+            <h1 class="text-3xl font-bold text-pink-500 mb-3">
+                Welcome to Chirper 🌸
+            </h1>
+            <p class="text-gray-600">
+            A gentle little space where thoughts unfold, stories are shared, and connections grow naturally.
+            </p>
+        </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 px-6">
+        <!-- 3 BOX SECTION -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-            <!-- Box 1 -->
-            <div class="bg-white p-6 rounded-xl shadow hover:scale-105 transition">
-                <h2 class="text-xl font-semibold mb-2">💬 Share Story</h2>
-                <p class="text-sm text-gray-600">
-                    Bagikan cerita dan momen kamu dengan dunia.
-                </p>
+            <!-- BOX 1 -->
+            <div class="bg-white p-6 rounded-xl shadow text-center hover:scale-105 transition">
+                <div class="w-12 h-12 mx-auto mb-3 bg-pink-300 rounded-full flex items-center justify-center text-white font-bold">
+                    A
+                </div>
+                <h2 class="font-semibold text-lg">Alice</h2>
+                <p class="text-sm text-gray-500">"Hello world from Chirper!"</p>
             </div>
 
-            <!-- Box 2 -->
-            <div class="bg-white p-6 rounded-xl shadow hover:scale-105 transition">
-                <h2 class="text-xl font-semibold mb-2">🌍 Connect</h2>
-                <p class="text-sm text-gray-600">
-                    Terhubung dengan orang-orang baru setiap hari.
-                </p>
+            <!-- BOX 2 -->
+            <div class="bg-white p-6 rounded-xl shadow text-center hover:scale-105 transition">
+                <div class="w-12 h-12 mx-auto mb-3 bg-purple-300 rounded-full flex items-center justify-center text-white font-bold">
+                    B
+                </div>
+                <h2 class="font-semibold text-lg">Brian</h2>
+                <p class="text-sm text-gray-500">"Laravel is fun 🚀"</p>
             </div>
 
-            <!-- Box 3 -->
-            <div class="bg-white p-6 rounded-xl shadow hover:scale-105 transition">
-                <h2 class="text-xl font-semibold mb-2">✨ Express</h2>
-                <p class="text-sm text-gray-600">
-                    Ekspresikan diri kamu dengan bebas dan kreatif.
-                </p>
+            <!-- BOX 3 -->
+            <div class="bg-white p-6 rounded-xl shadow text-center hover:scale-105 transition">
+                <div class="w-12 h-12 mx-auto mb-3 bg-pink-400 rounded-full flex items-center justify-center text-white font-bold">
+                    C
+                </div>
+                <h2 class="font-semibold text-lg">Cindy</h2>
+                <p class="text-sm text-gray-500">"Soft aesthetic vibes 💖"</p>
             </div>
 
         </div>
-
-        <button class="mt-10 bg-pink-400 text-white px-6 py-3 rounded-full hover:bg-pink-500 transition">
-            Jelajahi Sekarang →
-        </button>
 
     </div>
 
